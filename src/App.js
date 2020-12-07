@@ -1,5 +1,5 @@
 import React from 'react';
-import BooleanComponent from './03/BooleanComponent';
+import BooleanComponent from '././03/BooleanComponent';
 
 class App extends React.Component {
 	render() {
