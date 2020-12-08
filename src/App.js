@@ -1,11 +1,12 @@
 import React from 'react';
-import ChildComponent2 from './04/ChildComponent2';
+import ChildProperty from './04/ChildProperty';
 
 class App extends React.Component {
 	render() {
 		return (
 		<div>
-			<ChildComponent2 objValue={{ age: 20 }} requiredStringValue = "문자"/>
+			
+				<ChildProperty><div><span>자식 노드</span></div></ChildProperty>
 		</div>
 		);
 	}
