@@ -1,6 +1,6 @@
 import React from 'react';
 class ForceUpdateExapme extends React.Component { 
-constructor(props){
+	constructor(props){
 	super(props);
 	
 	this.loading = true;
