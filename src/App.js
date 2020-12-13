@@ -1,23 +1,10 @@
 import React from 'react';
-import Counter from './04/Counter';
-import NewCounter from './04/NewCounter';
+import ScrollSpy from './04/ScrollSpy'
 
-class App extends React.Component{
-	constructor(props){
-		super(props);
-		this.state={count:10};
-		this.resetCount = this.resetCount.bind(this);
-	}
-	resetCount(){
-		this.setState(({count}) => ({count : count + 10}));
-	}
+class App extends React.Component { 
 	render(){
 		return(
-			<div>
-				<div><Counter count={this.state.count} /></div>
-				<div><NewCounter count={this.state.count} /></div>
-				<button onClick={this.resetCount}>{this.state.count +10}으로 초기화</button>
-			</div>
+			<ScrollSpy />
 		);
 	}
 }
