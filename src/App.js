@@ -1,10 +1,10 @@
 import React from 'react';
-import ScrollSpy from './04/ScrollSpy'
+import Input from './04/Input'
 
 class App extends React.Component { 
 	render(){
 		return(
-			<ScrollSpy />
+			<Input />
 		);
 	}
 }
